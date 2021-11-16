@@ -10,7 +10,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author rodrigocarvalho
+ * @author Rodrigo Carvalho
  */
 public class Parte03 {
 
@@ -29,7 +29,6 @@ public class Parte03 {
         boolean gameOn = true;
         int qtdTentativas = 5, palpite = -1;
         int numCerto = rolarDado();
-        System.out.println(numCerto);
         
         System.out.println("### Jogo do Adivinhe um Número ###");
         System.out.println("O número já foi selecionado!!");
